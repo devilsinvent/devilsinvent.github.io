@@ -37,9 +37,6 @@
 body {
 	font-family: "Aileron-Thin", sans-serif;
 	text-align: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .navbar {
@@ -77,7 +74,7 @@ body {
 }
 
 a.navbar-brand:hover {
-	color: #cc62a5;
+	color: #A5CE38;
 }
 
 a.navbar-brand:focus,
@@ -295,7 +292,7 @@ a.button:focus,
 a.button:active,
 a.button:hover {
 	background-color: #DDDDDD;
-  color: #1F7094;
+  color: #343434;
 	text-decoration: none;
 }
 
@@ -303,8 +300,10 @@ a.button:hover {
 	position: relative;
 	min-height: 700px;
 	background-color: #1F7094;
-	/*background-color: rgb(215, 239, 251);*/
-	/*padding-top: calc(50vh - 95px); /*based on height of header*/
+	background-image: url("../assets/main_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #home .header {
@@ -348,7 +347,7 @@ a.button:hover {
 	}
 
 	.section-content p.plain {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	#faq h3 {
@@ -402,8 +401,11 @@ a.button:hover {
 
 #schedule {
 	min-height: 50vh;
-	background-color: #1F7094;
 	font-size: 1em;
+	background-image: url("../assets/schedule_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	color: #DDDDDD;
 }
 
@@ -412,7 +414,7 @@ a.button:hover {
 }
 
 #faq {
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 }
 
 .faq-header {
@@ -502,7 +504,7 @@ span.plus {
 
 
 	#schedule h2 {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.faq-col div {
@@ -522,7 +524,7 @@ span.plus {
 }
 
 .section-content p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .section-content {
@@ -539,12 +541,12 @@ span.plus {
 
 .logo-xl {
 	max-height: 125px;
-	max-width: 90%;
+	max-width: 60%;
 }
 
 .logo-l {
-	max-height: 80px;
-	max-width: 45%;
+	max-height: 70px;
+	max-width: 50%;
 }
 
 .logo-s {
@@ -569,7 +571,12 @@ footer a:active {
 }
 
 .footer {
-	padding-top: 100px;
+	padding-top: 50px;
+}
+
+.footer-image {
+	height: 50px;
+	width: 50px;
 }
 
 .social {
