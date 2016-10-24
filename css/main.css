@@ -188,10 +188,6 @@ section h1 {
   text-align: center;
 }
 
-.logos {
-	padding: 20px;
-}
-
 section p.plain {
 	font-size: 1.2em;
 	padding: 20px 75px;
@@ -365,10 +361,6 @@ a.button:hover {
 	#faq .section-header h1 {
 		width: 250px;
 	}
-
-	#faq {
-		padding-top: 80px
-	}
 }
 
 #about {
@@ -536,7 +528,7 @@ span.plus {
 }
 
 .logo {
-	margin: 0 10px;
+	margin: 20px 10px;
 }
 
 .logo-xl {

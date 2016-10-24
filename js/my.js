@@ -19,7 +19,7 @@ $(window).scroll(function() {
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
-        var offset = ($(window).width() < 768) ? -50 : 50;
+        var offset = 50;
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - offset
         }, 1500, 'easeInOutExpo');
