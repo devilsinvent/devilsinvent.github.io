@@ -1,31 +1,3 @@
-@font-face {
-	font-family: "BIGJOHN";
-	src: url("../fonts/BIG JOHN.otf");
-	font-weight: 800;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "SlimJoe";
-	src: url("../fonts/Slim Joe.otf");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Aileron-Bold";
-	src: url("../fonts/Aileron-Bold.otf");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Aileron-Thin";
-	src: url("../fonts/Aileron-Thin.otf");
-	font-weight: 400;
-	font-style: normal;
-}
-
 .desert-brown {
 	color: rgb(152, 64, 51);
 }
@@ -35,7 +7,7 @@
 }
 
 body {
-	font-family: "Aileron-Thin", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	text-align: center;
 }
 
@@ -63,7 +35,7 @@ body {
 }
 
 .navbar-brand {
-  font-size: 24px;
+  font-size: 35px;
 	padding: 17px 15px;
 	height: 60px;
 	color: #DDDDDD;
@@ -108,7 +80,7 @@ a.navbar-brand:active {
 }
 
 .navbar .navbar-nav>li>a {
-  font-size: 18px;
+  font-size: 25px;
 	color: #DDDDDD;
   -webkit-transition: border .3s ease-in-out, color .3s ease-in-out, padding .3s ease-in-out;
 	-moz-transition: border .3s ease-in-out, color .3s ease-in-out, padding .3s ease-in-out;
@@ -179,7 +151,6 @@ h1 {
 }
 
 section h1 {
-	font-family: "Aileron-Bold", sans-serif;
 	font-size: 40px;
 	margin-bottom: 20px;
 }
@@ -190,7 +161,7 @@ section h1 {
 
 section p.plain {
 	font-size: 1.2em;
-	padding: 20px 75px;
+	padding-bottom: 20px;
 	text-align: justify;
 	margin: 0;
 }
@@ -227,12 +198,10 @@ p {
 }
 
 .title h1 {
-  font-family: "Aileron-Bold", sans-serif;
   font-size: 60px;
 }
 
 .title h2 {
-  font-family: "Aileron-Bold", sans-serif;
   color: #DDDDDD;
 }
 
@@ -251,7 +220,7 @@ p {
 }
 
 .nav-item {
-	font-family: "Aileron-Bold", sans-serif;
+	font-family: "Droid Sans", sans-serif;
 }
 
 section {
@@ -267,8 +236,8 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 .button {
 	margin: 20px 10px 0 10px;
   outline: none;
-	font-family: "SlimJim", sans-serif;
-  font-size: 12px;
+	font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
   border: 2px solid #DDDDDD;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -370,10 +339,6 @@ a.button:hover {
 	padding-bottom: 60px;
 }
 
-#about p.plain {
-	text-align: justify;
-}
-
 .about-header {
 	text-align: left;
 	color: #ED3B3D;
@@ -394,7 +359,7 @@ a.button:hover {
 #schedule {
 	min-height: 50vh;
 	font-size: 1em;
-	background-image: url("../assets/schedule_bg.png");
+	background-color: #333;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -475,7 +440,7 @@ span.plus {
 	width: 33%;
 	float: left;
 	text-align: left;
-	padding: 0 40px 20px 40px;
+	padding: 0 40px 20px 0px;
 }
 
 @media(max-width: 991px) {
