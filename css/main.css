@@ -240,13 +240,13 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
   outline: none;
 font-family: "Titillium Web", sans-serif;
   font-size: 15px;
-  border: 2px solid #DDDDDD;
+  border: 2px solid #FFFFFF;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   /**border-radius: 20px;*/
   letter-spacing: .03em;
   /**color: #DDDDDD;*/
-  color: #DDDDDD;
+  color: #FFFFFF;
   /**background-color: transparent;*/
 	background-color:#990033;
   box-sizing: border-box;
