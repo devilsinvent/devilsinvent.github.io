@@ -202,7 +202,8 @@ p {
 }
 
 .title h2 {
-  color: #DDDDDD;
+  /**color: #DDDDDD;*/
+	color: #FFFFFF;
 }
 
 @media (max-width: 479px) {
