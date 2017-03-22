@@ -81,7 +81,8 @@ a.navbar-brand:active {
 
 .navbar .navbar-nav>li>a {
   font-size: 25px;
-	color: #DDDDDD;
+	/*color: #DDDDDD;*/
+	color: #FFFFFF;
   -webkit-transition: border .3s ease-in-out, color .3s ease-in-out, padding .3s ease-in-out;
 	-moz-transition: border .3s ease-in-out, color .3s ease-in-out, padding .3s ease-in-out;
 	-o-transition: border .3s ease-in-out, color .3s ease-in-out, padding .3s ease-in-out;
