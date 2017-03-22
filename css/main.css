@@ -244,8 +244,9 @@ font-family: "Titillium Web", sans-serif;
   /**border-radius: 20px;*/
   letter-spacing: .03em;
   /**color: #DDDDDD;*/
-  color: #990033;
-  background-color: transparent;
+  color: #DDDDDD;
+  /**background-color: transparent;*/
+	background-color:#990033;
   box-sizing: border-box;
   height: 48px;
   line-height: 12px;
