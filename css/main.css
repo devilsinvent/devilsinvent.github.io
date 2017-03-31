@@ -558,3 +558,29 @@ footer a:active {
   position:absolute;
   box-sizing: border-box;
 }
+
+#events_materials .section-content h1 {
+  font-size: 24px;
+}
+
+#events_materials h2 {
+	font-size: 16px;
+}
+
+#events_materials h2 span {
+	float: right;
+}
+
+#events_materials {
+	min-height: 50vh;
+	font-size: 1em;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #DDDDDD;
+}
+
+.events_materials-header {
+	color: #DDDDDD;
+}
