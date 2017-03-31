@@ -104,6 +104,10 @@ a.navbar-brand:active {
 
 }
 
+.navbar .navbar-nav>li>a.event_materials {
+
+}
+
 .navbar .navbar-nav>li>a.about:hover,
 .navbar .navbar-nav>li>a.about:focus,
 .navbar .navbar-nav>li>a.about:active,
@@ -129,6 +133,15 @@ ul.nav a.faq.active {
   background-color: transparent;
   color: #F1BE2E;
 	border-color: #F1BE2E;
+}
+
+.navbar .navbar-nav>li>a.event_materials:hover,
+.navbar .navbar-nav>li>a.event_materials:focus,
+.navbar .navbar-nav>li>a.event_materials:active,
+ul.nav a.event_materials.active {
+  background-color: transparent;
+  color: #85144b;
+	border-color: #85144b;
 }
 
 ul.nav a {
